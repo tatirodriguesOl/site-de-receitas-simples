@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Pagina Cadastro</title>
+    <style>
+        body{
+            background-color: rgb(34, 92, 139);
+        }
+        fieldset{
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Cadastro Usuário</h1>
+    <div> 
+    <fieldset>
+    <legend>Identificação</legend>
+    <form>
+        Nome: <input type="text" size="30" maxlength="5" placeholder="Digite seu nome" name="iptnome" id=""> 
+        <br>
+        <br> 
+        Senha: <input type="password" size="30" maxlength="5" placeholder="Digite sua Senha" name="iptnome" id=""> 
+        <br>
+        <br>
+        Email:  <input type="email" size="30" maxlength="5" placeholder="Digite seu email" name="iptnome" id="">
+        <br>
+        <br>
+    <fieldset>
+        <legend>Sexo</legend>
+        <input name="Sexo" type="radio">Feminino<br>
+        <input name="Sexo" type="radio">Masculino<br>
+    </form>
+        <br>
+    </fieldset>
+    Data de Nascimento: <input type="date"> <br>
+    <fieldset>
+    <legend>Endereço</legend>
+    <form>
+        Logradouro: <input type="text" size="30" maxlength="5" placeholder="Rua, Avenida" name="iptnome" id=""> 
+        <br> 
+        <br>
+        Número: <input type="number" size="30"  maxlength="5" name="iptnome" id=""> 
+        <br>
+        <br> 
+        Cidade: <input type="text" size="30"  maxlength="5" name="iptnome" id=""> 
+        <br>
+        <br>
+        <label>Estado</label>
+        <select name="estado" id="estado">
+    <option value=""></option>
+    <option value="SP"> SP</option>
+    <option value="RJ"> RJ</option>
+    <option value="MS"> MS</option>
+    <option value="MN"> MN</option>
+    <option value="DF"> DF</option>
+    <option value="AL"> AL</option>
+    <option value="AC"> AC</option>
+    <option value="AP"> AP</option>
+    <option value="BA"> BA</option>
+    <option value="CE"> CE</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Cadastrar">
+    <br>
+    <br>
+    <button><a href="index.html" >Voltar</a></button>
+    </form>
+    </fieldset>
+    <center>
+        <h3>Desenvolvido por:</h3>
+        <h4>Turma DS</h4>
+    </center>
+</body>
+</html>
